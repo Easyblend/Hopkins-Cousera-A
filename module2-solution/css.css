@@ -17,7 +17,6 @@ h2 {
   position: absolute;
   right: 0px;
   top: 0px;
-  background-color: rgb(0, 140, 255);
   padding: 5px;
 }
 
@@ -30,7 +29,7 @@ p {
   .col-lg-3 {
     width: 30%;
     float: left;
-    background-color: rgb(7, 206, 189);
+    background-color: rgb(192, 192, 192);
     border: 1px solid black;
     padding: 10px;
     margin: 16px;
@@ -38,12 +37,24 @@ p {
   }
 }
 
+.h2 {
+  background-color: rgb(97, 97, 255);
+}
+
+.h3 {
+  background-color: rgb(97, 255, 131);
+}
+
+.h4 {
+  background-color: rgb(255, 97, 97);
+}
+
 /********TABLET********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
     width: 45%;
     float: left;
-    background-color: rgb(7, 206, 189);
+    background-color: rgb(192, 192, 192);
     border: 1px solid black;
     padding: 10px;
     position: relative;
@@ -59,7 +70,7 @@ p {
 @media (max-width: 767px) {
   .col-md-6 {
     float: left;
-    background-color: rgb(7, 206, 189);
+    background-color: rgb(192, 192, 192);
     border: 1px solid black;
     padding: 10px;
     margin: 2%;
