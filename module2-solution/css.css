@@ -11,6 +11,7 @@
 
 h1 {
   text-align: center;
+  margin: 30px;
 }
 
 h2 {
@@ -38,15 +39,18 @@ p {
 }
 
 .h2 {
-  background-color: rgb(97, 97, 255);
+  background-color: rgb(138, 138, 255);
+  border: 1px solid black;
 }
 
 .h3 {
   background-color: rgb(97, 255, 131);
+  border: 1px solid black;
 }
 
 .h4 {
   background-color: rgb(255, 97, 97);
+  border: 1px solid black;
 }
 
 /********TABLET********/
